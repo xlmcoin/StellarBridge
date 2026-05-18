@@ -1,4 +1,4 @@
-# StellarCapital
+# StellarBridge
 
 ## Precision Capital. Enduring Value.
 
@@ -6,9 +6,9 @@
 
 ## Overview
 
-StellarCapital is a modern investment and strategic capital platform focused on disciplined allocation, long-term growth, and enduring value creation.
+StellarBridge is a modern investment and strategic capital platform focused on disciplined allocation, long-term growth, and enduring value creation.
 
-Built on principles of precision, intelligence, and resilience, StellarCapital partners with ambitious founders, enterprises, and investors to navigate complex markets with clarity and conviction.
+Built on principles of precision, intelligence, and resilience, StellarBridge partners with ambitious founders, enterprises, and investors to navigate complex markets with clarity and conviction.
 
 ---
 
@@ -30,7 +30,7 @@ Built on principles of precision, intelligence, and resilience, StellarCapital p
 
 ### Brand Philosophy
 
-At StellarCapital, capital is deployed with discipline, insight, and long-term vision. Every decision is guided by rigorous analysis, strategic foresight, and a commitment to sustainable value creation.
+At StellarBridge, capital is deployed with discipline, insight, and long-term vision. Every decision is guided by rigorous analysis, strategic foresight, and a commitment to sustainable value creation.
 
 ---
 
@@ -145,7 +145,7 @@ Disciplined investment strategies built for enduring success.
 
 ## Example Brand Introduction
 
-StellarCapital is an independent capital and advisory platform focused on long-term value creation through disciplined investment strategy, intelligent capital deployment, and trusted partnerships.
+StellarBridge is an independent capital and advisory platform focused on long-term value creation through disciplined investment strategy, intelligent capital deployment, and trusted partnerships.
 
 We combine institutional rigor with entrepreneurial vision to identify opportunities, preserve capital, and support sustainable growth in evolving global markets.
 
@@ -159,4 +159,4 @@ Precision. Discipline. Legacy. Strategy. Intelligence. Stewardship. Growth. Trus
 
 ## License
 
-© 2026 StellarCapital. All rights reserved.
+© 2026 StellarBridge. All rights reserved.
