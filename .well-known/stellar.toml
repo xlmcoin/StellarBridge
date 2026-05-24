@@ -1,1 +1,467 @@
-NETWORK_PASSPHRASE="Public Global Stellar Network ; September 2015"
+# ==============================================================================
+# STELLAR.TOML — StellarBridge
+# https://stellarbridge.vercel.app/.well-known/stellar.toml
+#
+# This file complies with Stellar Ecosystem Proposal SEP-0001.
+# Hosted at: https://stellarbridge.vercel.app/.well-known/stellar.toml
+# Issuer:    GBLWJMEOJEF3G5PMKH2LKS2Y26WZFI6N6SI725D2IY77VPE2JVYWJOIN
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# ORGANIZATION
+# ------------------------------------------------------------------------------
+
+[DOCUMENTATION]
+ORG_NAME                = "StellarBridge"
+ORG_DBA                 = "StellarBridge Protocol"
+ORG_URL                 = "https://stellarbridge.vercel.app"
+ORG_LOGO                = "https://stellarbridge.vercel.app/og-image.png"
+ORG_DESCRIPTION         = "StellarBridge is a trustless, non-custodial cross-chain bridge built on the Stellar blockchain, enabling seamless asset transfers across chains with sub-second finality and near-zero fees."
+ORG_TWITTER             = "StellarBridge"
+ORG_GITHUB              = "StellarBridge"
+ORG_OFFICIAL_EMAIL      = "hello@stellarbridge.io"
+ORG_SUPPORT_EMAIL       = "support@stellarbridge.io"
+ORG_KEYBASE             = "stellarbridge"
+
+# ------------------------------------------------------------------------------
+# SIGNING KEY
+# ------------------------------------------------------------------------------
+
+SIGNING_KEY = "GBLWJMEOJEF3G5PMKH2LKS2Y26WZFI6N6SI725D2IY77VPE2JVYWJOIN"
+
+# ------------------------------------------------------------------------------
+# CURRENCIES  (33 tokens — fixed supply 922,337,203,685.4775807 each)
+# ------------------------------------------------------------------------------
+
+[[CURRENCIES]]
+code                = "ACURAST"
+issuer              = "GBLWJMEOJEF3G5PMKH2LKS2Y26WZFI6N6SI725D2IY77VPE2JVYWJOIN"
+display_decimals    = 7
+name                = "Acurast"
+desc                = "Acurast bridged asset on StellarBridge — trustless cross-chain transfer powered by the Stellar network."
+image               = "https://stellarbridge.vercel.app/assets/ACURAST.jpg"
+fixed_number        = 9223372036854775807
+is_asset_anchored   = false
+anchor_asset_type   = "other"
+status              = "live"
+regulated           = false
+
+[[CURRENCIES]]
+code                = "ACALA"
+issuer              = "GBLWJMEOJEF3G5PMKH2LKS2Y26WZFI6N6SI725D2IY77VPE2JVYWJOIN"
+display_decimals    = 7
+name                = "Acala"
+desc                = "Acala bridged asset on StellarBridge — trustless cross-chain transfer powered by the Stellar network."
+image               = "https://stellarbridge.vercel.app/assets/Acala.jpg"
+fixed_number        = 9223372036854775807
+is_asset_anchored   = false
+anchor_asset_type   = "other"
+status              = "live"
+regulated           = false
+
+[[CURRENCIES]]
+code                = "BIFROST"
+issuer              = "GBLWJMEOJEF3G5PMKH2LKS2Y26WZFI6N6SI725D2IY77VPE2JVYWJOIN"
+display_decimals    = 7
+name                = "Bifrost"
+desc                = "Bifrost bridged asset on StellarBridge — trustless cross-chain transfer powered by the Stellar network."
+image               = "https://stellarbridge.vercel.app/assets/Bifrost.jpg"
+fixed_number        = 9223372036854775807
+is_asset_anchored   = false
+anchor_asset_type   = "other"
+status              = "live"
+regulated           = false
+
+[[CURRENCIES]]
+code                = "CELERATOR"
+issuer              = "GBLWJMEOJEF3G5PMKH2LKS2Y26WZFI6N6SI725D2IY77VPE2JVYWJOIN"
+display_decimals    = 7
+name                = "Celerator"
+desc                = "Celerator bridged asset on StellarBridge — trustless cross-chain transfer powered by the Stellar network."
+image               = "https://stellarbridge.vercel.app/assets/CELERATOR.jpg"
+fixed_number        = 9223372036854775807
+is_asset_anchored   = false
+anchor_asset_type   = "other"
+status              = "live"
+regulated           = false
+
+[[CURRENCIES]]
+code                = "CLICKPESA"
+issuer              = "GBLWJMEOJEF3G5PMKH2LKS2Y26WZFI6N6SI725D2IY77VPE2JVYWJOIN"
+display_decimals    = 7
+name                = "ClickPesa"
+desc                = "ClickPesa bridged asset on StellarBridge — trustless cross-chain transfer powered by the Stellar network."
+image               = "https://stellarbridge.vercel.app/assets/ClickPesa.jpg"
+fixed_number        = 9223372036854775807
+is_asset_anchored   = false
+anchor_asset_type   = "other"
+status              = "live"
+regulated           = false
+
+[[CURRENCIES]]
+code                = "DIA"
+issuer              = "GBLWJMEOJEF3G5PMKH2LKS2Y26WZFI6N6SI725D2IY77VPE2JVYWJOIN"
+display_decimals    = 7
+name                = "DIA"
+desc                = "DIA bridged asset on StellarBridge — trustless cross-chain transfer powered by the Stellar network."
+image               = "https://stellarbridge.vercel.app/assets/DIA.jpg"
+fixed_number        = 9223372036854775807
+is_asset_anchored   = false
+anchor_asset_type   = "other"
+status              = "live"
+regulated           = false
+
+[[CURRENCIES]]
+code                = "EQUILIBRIUM"
+issuer              = "GBLWJMEOJEF3G5PMKH2LKS2Y26WZFI6N6SI725D2IY77VPE2JVYWJOIN"
+display_decimals    = 7
+name                = "Equilibrium"
+desc                = "Equilibrium bridged asset on StellarBridge — trustless cross-chain transfer powered by the Stellar network."
+image               = "https://stellarbridge.vercel.app/assets/Equilibrium.jpg"
+fixed_number        = 9223372036854775807
+is_asset_anchored   = false
+anchor_asset_type   = "other"
+status              = "live"
+regulated           = false
+
+[[CURRENCIES]]
+code                = "FEARLESS"
+issuer              = "GBLWJMEOJEF3G5PMKH2LKS2Y26WZFI6N6SI725D2IY77VPE2JVYWJOIN"
+display_decimals    = 7
+name                = "Fearless Wallet"
+desc                = "Fearless bridged asset on StellarBridge — trustless cross-chain transfer powered by the Stellar network."
+image               = "https://stellarbridge.vercel.app/assets/FEARLESS.jpg"
+fixed_number        = 9223372036854775807
+is_asset_anchored   = false
+anchor_asset_type   = "other"
+status              = "live"
+regulated           = false
+
+[[CURRENCIES]]
+code                = "GETPAID"
+issuer              = "GBLWJMEOJEF3G5PMKH2LKS2Y26WZFI6N6SI725D2IY77VPE2JVYWJOIN"
+display_decimals    = 7
+name                = "GetPaid"
+desc                = "GetPaid bridged asset on StellarBridge — trustless cross-chain transfer powered by the Stellar network."
+image               = "https://stellarbridge.vercel.app/assets/GetPaid.jpg"
+fixed_number        = 9223372036854775807
+is_asset_anchored   = false
+anchor_asset_type   = "other"
+status              = "live"
+regulated           = false
+
+[[CURRENCIES]]
+code                = "INTERLAY"
+issuer              = "GBLWJMEOJEF3G5PMKH2LKS2Y26WZFI6N6SI725D2IY77VPE2JVYWJOIN"
+display_decimals    = 7
+name                = "Interlay"
+desc                = "Interlay bridged asset on StellarBridge — trustless cross-chain transfer powered by the Stellar network."
+image               = "https://stellarbridge.vercel.app/assets/INTERLAY.jpg"
+fixed_number        = 9223372036854775807
+is_asset_anchored   = false
+anchor_asset_type   = "other"
+status              = "live"
+regulated           = false
+
+[[CURRENCIES]]
+code                = "KILT"
+issuer              = "GBLWJMEOJEF3G5PMKH2LKS2Y26WZFI6N6SI725D2IY77VPE2JVYWJOIN"
+display_decimals    = 7
+name                = "KILT Protocol"
+desc                = "KILT bridged asset on StellarBridge — trustless cross-chain transfer powered by the Stellar network."
+image               = "https://stellarbridge.vercel.app/assets/KILT.jpg"
+fixed_number        = 9223372036854775807
+is_asset_anchored   = false
+anchor_asset_type   = "other"
+status              = "live"
+regulated           = false
+
+[[CURRENCIES]]
+code                = "KUSAMA"
+issuer              = "GBLWJMEOJEF3G5PMKH2LKS2Y26WZFI6N6SI725D2IY77VPE2JVYWJOIN"
+display_decimals    = 7
+name                = "Kusama"
+desc                = "Kusama bridged asset on StellarBridge — trustless cross-chain transfer powered by the Stellar network."
+image               = "https://stellarbridge.vercel.app/assets/KUSAMA.jpg"
+fixed_number        = 9223372036854775807
+is_asset_anchored   = false
+anchor_asset_type   = "other"
+status              = "live"
+regulated           = false
+
+[[CURRENCIES]]
+code                = "MEXC"
+issuer              = "GBLWJMEOJEF3G5PMKH2LKS2Y26WZFI6N6SI725D2IY77VPE2JVYWJOIN"
+display_decimals    = 7
+name                = "MEXC"
+desc                = "MEXC bridged asset on StellarBridge — trustless cross-chain transfer powered by the Stellar network."
+image               = "https://stellarbridge.vercel.app/assets/MEXC.jpg"
+fixed_number        = 9223372036854775807
+is_asset_anchored   = false
+anchor_asset_type   = "other"
+status              = "live"
+regulated           = false
+
+[[CURRENCIES]]
+code                = "NABLA"
+issuer              = "GBLWJMEOJEF3G5PMKH2LKS2Y26WZFI6N6SI725D2IY77VPE2JVYWJOIN"
+display_decimals    = 7
+name                = "Nabla"
+desc                = "Nabla bridged asset on StellarBridge — trustless cross-chain transfer powered by the Stellar network."
+image               = "https://stellarbridge.vercel.app/assets/NABLA.jpg"
+fixed_number        = 9223372036854775807
+is_asset_anchored   = false
+anchor_asset_type   = "other"
+status              = "live"
+regulated           = false
+
+[[CURRENCIES]]
+code                = "NOVA"
+issuer              = "GBLWJMEOJEF3G5PMKH2LKS2Y26WZFI6N6SI725D2IY77VPE2JVYWJOIN"
+display_decimals    = 7
+name                = "Nova Wallet"
+desc                = "Nova bridged asset on StellarBridge — trustless cross-chain transfer powered by the Stellar network."
+image               = "https://stellarbridge.vercel.app/assets/NOVA.jpg"
+fixed_number        = 9223372036854775807
+is_asset_anchored   = false
+anchor_asset_type   = "other"
+status              = "live"
+regulated           = false
+
+[[CURRENCIES]]
+code                = "PENGUIN"
+issuer              = "GBLWJMEOJEF3G5PMKH2LKS2Y26WZFI6N6SI725D2IY77VPE2JVYWJOIN"
+display_decimals    = 7
+name                = "Penguin"
+desc                = "Penguin bridged asset on StellarBridge — trustless cross-chain transfer powered by the Stellar network."
+image               = "https://stellarbridge.vercel.app/assets/Penguin.jpg"
+fixed_number        = 9223372036854775807
+is_asset_anchored   = false
+anchor_asset_type   = "other"
+status              = "live"
+regulated           = false
+
+[[CURRENCIES]]
+code                = "POLKADOT"
+issuer              = "GBLWJMEOJEF3G5PMKH2LKS2Y26WZFI6N6SI725D2IY77VPE2JVYWJOIN"
+display_decimals    = 7
+name                = "Polkadot"
+desc                = "Polkadot bridged asset on StellarBridge — trustless cross-chain transfer powered by the Stellar network."
+image               = "https://stellarbridge.vercel.app/assets/Polkadot.jpg"
+fixed_number        = 9223372036854775807
+is_asset_anchored   = false
+anchor_asset_type   = "other"
+status              = "live"
+regulated           = false
+
+[[CURRENCIES]]
+code                = "POLKAHOLIC"
+issuer              = "GBLWJMEOJEF3G5PMKH2LKS2Y26WZFI6N6SI725D2IY77VPE2JVYWJOIN"
+display_decimals    = 7
+name                = "Polkaholic"
+desc                = "Polkaholic bridged asset on StellarBridge — trustless cross-chain transfer powered by the Stellar network."
+image               = "https://stellarbridge.vercel.app/assets/Polkaholic.jpg"
+fixed_number        = 9223372036854775807
+is_asset_anchored   = false
+anchor_asset_type   = "other"
+status              = "live"
+regulated           = false
+
+[[CURRENCIES]]
+code                = "SATOSHIPAY"
+issuer              = "GBLWJMEOJEF3G5PMKH2LKS2Y26WZFI6N6SI725D2IY77VPE2JVYWJOIN"
+display_decimals    = 7
+name                = "SatoshiPay"
+desc                = "SatoshiPay bridged asset on StellarBridge — trustless cross-chain transfer powered by the Stellar network."
+image               = "https://stellarbridge.vercel.app/assets/SatoshiPay.jpg"
+fixed_number        = 9223372036854775807
+is_asset_anchored   = false
+anchor_asset_type   = "other"
+status              = "live"
+regulated           = false
+
+[[CURRENCIES]]
+code                = "STAEMINT"
+issuer              = "GBLWJMEOJEF3G5PMKH2LKS2Y26WZFI6N6SI725D2IY77VPE2JVYWJOIN"
+display_decimals    = 7
+name                = "Staemint"
+desc                = "Staemint bridged asset on StellarBridge — trustless cross-chain transfer powered by the Stellar network."
+image               = "https://stellarbridge.vercel.app/assets/Staemint.jpg"
+fixed_number        = 9223372036854775807
+is_asset_anchored   = false
+anchor_asset_type   = "other"
+status              = "live"
+regulated           = false
+
+[[CURRENCIES]]
+code                = "STELLAR"
+issuer              = "GBLWJMEOJEF3G5PMKH2LKS2Y26WZFI6N6SI725D2IY77VPE2JVYWJOIN"
+display_decimals    = 7
+name                = "Stellar"
+desc                = "Stellar bridged asset on StellarBridge — trustless cross-chain transfer powered by the Stellar network."
+image               = "https://stellarbridge.vercel.app/assets/Stellar.jpg"
+fixed_number        = 9223372036854775807
+is_asset_anchored   = false
+anchor_asset_type   = "other"
+status              = "live"
+regulated           = false
+
+[[CURRENCIES]]
+code                = "SUBWALLET"
+issuer              = "GBLWJMEOJEF3G5PMKH2LKS2Y26WZFI6N6SI725D2IY77VPE2JVYWJOIN"
+display_decimals    = 7
+name                = "SubWallet"
+desc                = "SubWallet bridged asset on StellarBridge — trustless cross-chain transfer powered by the Stellar network."
+image               = "https://stellarbridge.vercel.app/assets/SubWallet.jpg"
+fixed_number        = 9223372036854775807
+is_asset_anchored   = false
+anchor_asset_type   = "other"
+status              = "live"
+regulated           = false
+
+[[CURRENCIES]]
+code                = "TEMPO"
+issuer              = "GBLWJMEOJEF3G5PMKH2LKS2Y26WZFI6N6SI725D2IY77VPE2JVYWJOIN"
+display_decimals    = 7
+name                = "TEMPO"
+desc                = "TEMPO bridged asset on StellarBridge — trustless cross-chain transfer powered by the Stellar network."
+image               = "https://stellarbridge.vercel.app/assets/TEMPO.jpg"
+fixed_number        = 9223372036854775807
+is_asset_anchored   = false
+anchor_asset_type   = "other"
+status              = "live"
+regulated           = false
+
+[[CURRENCIES]]
+code                = "TALISMAN"
+issuer              = "GBLWJMEOJEF3G5PMKH2LKS2Y26WZFI6N6SI725D2IY77VPE2JVYWJOIN"
+display_decimals    = 7
+name                = "Talisman"
+desc                = "Talisman bridged asset on StellarBridge — trustless cross-chain transfer powered by the Stellar network."
+image               = "https://stellarbridge.vercel.app/assets/Talisman.jpg"
+fixed_number        = 9223372036854775807
+is_asset_anchored   = false
+anchor_asset_type   = "other"
+status              = "live"
+regulated           = false
+
+[[CURRENCIES]]
+code                = "TRANSFERO"
+issuer              = "GBLWJMEOJEF3G5PMKH2LKS2Y26WZFI6N6SI725D2IY77VPE2JVYWJOIN"
+display_decimals    = 7
+name                = "Transfero"
+desc                = "Transfero bridged asset on StellarBridge — trustless cross-chain transfer powered by the Stellar network."
+image               = "https://stellarbridge.vercel.app/assets/Transfero.jpg"
+fixed_number        = 9223372036854775807
+is_asset_anchored   = false
+anchor_asset_type   = "other"
+status              = "live"
+regulated           = false
+
+[[CURRENCIES]]
+code                = "WEB3"
+issuer              = "GBLWJMEOJEF3G5PMKH2LKS2Y26WZFI6N6SI725D2IY77VPE2JVYWJOIN"
+display_decimals    = 7
+name                = "Web3 Foundation"
+desc                = "Web3 Foundation bridged asset on StellarBridge — trustless cross-chain transfer powered by the Stellar network."
+image               = "https://stellarbridge.vercel.app/assets/Web3.jpg"
+fixed_number        = 9223372036854775807
+is_asset_anchored   = false
+anchor_asset_type   = "other"
+status              = "live"
+regulated           = false
+
+[[CURRENCIES]]
+code                = "ZENLINK"
+issuer              = "GBLWJMEOJEF3G5PMKH2LKS2Y26WZFI6N6SI725D2IY77VPE2JVYWJOIN"
+display_decimals    = 7
+name                = "Zenlink"
+desc                = "Zenlink bridged asset on StellarBridge — trustless cross-chain transfer powered by the Stellar network."
+image               = "https://stellarbridge.vercel.app/assets/Zenlink.jpg"
+fixed_number        = 9223372036854775807
+is_asset_anchored   = false
+anchor_asset_type   = "other"
+status              = "live"
+regulated           = false
+
+[[CURRENCIES]]
+code                = "EMONEY"
+issuer              = "GBLWJMEOJEF3G5PMKH2LKS2Y26WZFI6N6SI725D2IY77VPE2JVYWJOIN"
+display_decimals    = 7
+name                = "eMoney"
+desc                = "eMoney bridged asset on StellarBridge — trustless cross-chain transfer powered by the Stellar network."
+image               = "https://stellarbridge.vercel.app/assets/eMoney.jpg"
+fixed_number        = 9223372036854775807
+is_asset_anchored   = false
+anchor_asset_type   = "other"
+status              = "live"
+regulated           = false
+
+[[CURRENCIES]]
+code                = "ENKRYPT"
+issuer              = "GBLWJMEOJEF3G5PMKH2LKS2Y26WZFI6N6SI725D2IY77VPE2JVYWJOIN"
+display_decimals    = 7
+name                = "Enkrypt"
+desc                = "Enkrypt bridged asset on StellarBridge — trustless cross-chain transfer powered by the Stellar network."
+image               = "https://stellarbridge.vercel.app/assets/enkrypt.jpg"
+fixed_number        = 9223372036854775807
+is_asset_anchored   = false
+anchor_asset_type   = "other"
+status              = "live"
+regulated           = false
+
+[[CURRENCIES]]
+code                = "NTOKENS"
+issuer              = "GBLWJMEOJEF3G5PMKH2LKS2Y26WZFI6N6SI725D2IY77VPE2JVYWJOIN"
+display_decimals    = 7
+name                = "nTokens"
+desc                = "nTokens bridged asset on StellarBridge — trustless cross-chain transfer powered by the Stellar network."
+image               = "https://stellarbridge.vercel.app/assets/nTokens.jpg"
+fixed_number        = 9223372036854775807
+is_asset_anchored   = false
+anchor_asset_type   = "other"
+status              = "live"
+regulated           = false
+
+[[CURRENCIES]]
+code                = "PARITY"
+issuer              = "GBLWJMEOJEF3G5PMKH2LKS2Y26WZFI6N6SI725D2IY77VPE2JVYWJOIN"
+display_decimals    = 7
+name                = "Parity"
+desc                = "Parity bridged asset on StellarBridge — trustless cross-chain transfer powered by the Stellar network."
+image               = "https://stellarbridge.vercel.app/assets/parity.jpg"
+fixed_number        = 9223372036854775807
+is_asset_anchored   = false
+anchor_asset_type   = "other"
+status              = "live"
+regulated           = false
+
+[[CURRENCIES]]
+code                = "SUBSQUID"
+issuer              = "GBLWJMEOJEF3G5PMKH2LKS2Y26WZFI6N6SI725D2IY77VPE2JVYWJOIN"
+display_decimals    = 7
+name                = "Subsquid"
+desc                = "Subsquid bridged asset on StellarBridge — trustless cross-chain transfer powered by the Stellar network."
+image               = "https://stellarbridge.vercel.app/assets/subsquid.jpg"
+fixed_number        = 9223372036854775807
+is_asset_anchored   = false
+anchor_asset_type   = "other"
+status              = "live"
+regulated           = false
+
+[[CURRENCIES]]
+code                = "ZONDAX"
+issuer              = "GBLWJMEOJEF3G5PMKH2LKS2Y26WZFI6N6SI725D2IY77VPE2JVYWJOIN"
+display_decimals    = 7
+name                = "Zondax"
+desc                = "Zondax bridged asset on StellarBridge — trustless cross-chain transfer powered by the Stellar network."
+image               = "https://stellarbridge.vercel.app/assets/zondax.jpg"
+fixed_number        = 9223372036854775807
+is_asset_anchored   = false
+anchor_asset_type   = "other"
+status              = "live"
+regulated           = false
+
+# ==============================================================================
+# SEP-0001: https://github.com/stellar/stellar-protocol/blob/master/ecosystem/sep-0001.md
+# ==============================================================================
