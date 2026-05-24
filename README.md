@@ -1,162 +1,133 @@
-# StellarBridge
+<div align="center">
 
-## Precision Capital. Enduring Value.
+<img src="og-image.png" alt="StellarBridge Banner" width="100%" />
 
----
+<br /><br />
 
-## Overview
+# ✦ StellarBridge
 
-StellarBridge is a modern investment and strategic capital platform focused on disciplined allocation, long-term growth, and enduring value creation.
+### The Decentralized Cross-Chain Bridge on Stellar
 
-Built on principles of precision, intelligence, and resilience, StellarBridge partners with ambitious founders, enterprises, and investors to navigate complex markets with clarity and conviction.
+*Bridge any asset. Any chain. At the speed of Stellar.*
 
----
+<br />
 
-## Brand Positioning
-
-### Core Identity
-
-**Precision Capital. Enduring Value.**
-
-### Brand Attributes
-
-* Institutional
-* Sophisticated
-* Strategic
-* Long-term oriented
-* Trust-driven
-* Analytical
-* Modern luxury
-
-### Brand Philosophy
-
-At StellarBridge, capital is deployed with discipline, insight, and long-term vision. Every decision is guided by rigorous analysis, strategic foresight, and a commitment to sustainable value creation.
+</div>
 
 ---
 
-## Mission
+## What is StellarBridge?
 
-To deliver intelligent capital solutions that preserve wealth, unlock opportunity, and create enduring value across generations.
+StellarBridge is a **trustless, non-custodial cross-chain bridge** powered by the Stellar network. It lets anyone move digital assets across blockchains — Ethereum, Polygon, Solana, BSC, and more — with sub-second confirmation times and fees so small they're almost invisible.
 
----
+Unlike legacy bridges that rely on centralized validators and slow settlement layers, StellarBridge uses Stellar's **Federated Byzantine Agreement (FBA)** consensus to verify every transfer on-chain, without intermediaries, without custody, without compromise.
 
-## Vision
-
-To become a globally respected capital platform recognized for precision investing, strategic partnerships, and long-horizon value creation.
+> **Your keys. Your assets. Your bridge.**
 
 ---
 
-## Core Principles
+## Why Stellar?
 
-### Precision
+| Property | Stellar | Ethereum |
+|---|---|---|
+| Avg. confirmation | ~5 seconds | ~12 seconds+ |
+| Avg. fee | ~$0.0001 | $1–$50+ |
+| Consensus | Federated Byzantine Agreement | Proof of Stake |
+| Carbon footprint | Carbon-neutral ✓ | High |
+| Throughput | 1,000 TPS | ~15–30 TPS |
 
-Every investment decision is grounded in data, discipline, and strategic analysis.
-
-### Integrity
-
-Trust, transparency, and accountability define every partnership.
-
-### Long-Term Thinking
-
-We prioritize sustainable growth and enduring outcomes over short-term speculation.
-
-### Partnership
-
-We build lasting relationships with founders, investors, and institutions.
-
-### Excellence
-
-We maintain uncompromising standards across strategy, execution, and stewardship.
+Stellar was purpose-built for fast, low-cost global asset transfers — making it the ideal foundation for a cross-chain bridge.
 
 ---
 
-## Services
+## Key Features
 
-### Private Capital
-
-Strategic investment opportunities across growth sectors and high-potential enterprises.
-
-### Wealth & Asset Management
-
-Long-term portfolio strategies focused on preservation, growth, and resilience.
-
-### Strategic Advisory
-
-Capital structuring, market positioning, and investment advisory services.
-
-### Alternative Investments
-
-Selective exposure to private markets, innovation sectors, and emerging opportunities.
+- **⚡ Sub-Second Finality** — transactions confirm in under 5 seconds, 1000× faster than Ethereum
+- **💸 Near-Zero Fees** — Stellar's base fee is 0.00001 XLM (~$0.0001); you keep almost everything
+- **🔒 Non-Custodial** — atomic swaps and on-chain escrow mean StellarBridge never holds your funds
+- **🌐 Multi-Chain** — bridge assets across Ethereum, Polygon, Solana, BSC, and more
+- **🔗 DEX Native** — directly integrated with the Stellar DEX and StellarTerm; bridge and trade in one flow
+- **🌿 Carbon Neutral** — Stellar is a certified carbon-neutral network
+- **🛡 Audited Protocol** — smart contracts independently audited; active bug bounty program
 
 ---
 
-## Target Audience
+## How It Works
 
-* High-net-worth individuals
-* Family offices
-* Institutional investors
-* Growth-stage companies
-* Strategic partners
-* Global entrepreneurs
+```
+User initiates bridge request
+        │
+        ▼
+StellarBridge locks assets in on-chain escrow (source chain)
+        │
+        ▼
+Stellar validators reach FBA consensus on the transfer
+        │
+        ▼
+Equivalent assets released to destination wallet (target chain)
+        │
+        ▼
+Transaction finalized — confirmed on both chains
+```
 
----
-
-## Visual Identity
-
-### Color Direction
-
-* Obsidian Black
-* Deep Navy
-* Graphite Gray
-* Platinum Silver
-* Soft White
-
-### Typography
-
-A refined balance of modern serif and minimalist sans-serif typography.
-
-### Design Language
-
-* Clean layouts
-* Generous whitespace
-* Minimalist elegance
-* Institutional confidence
-* Premium visual hierarchy
+No centralized relayer. No wrapped tokens controlled by a single entity. Every step is verifiable on-chain.
 
 ---
 
-## Website Hero Copy
+## Supported Chains
 
-### Option 1
-
-**Precision Capital. Enduring Value.**
-
-Strategic investment and advisory solutions designed for long-term growth and generational impact.
-
-### Option 2
-
-Intelligent capital for ambitious futures.
-
-### Option 3
-
-Disciplined investment strategies built for enduring success.
+| Chain | Status |
+|---|---|
+| Stellar (XLM) | ✅ Live |
+| Avalanche (AVAX) | 🔄 Coming Soon |
 
 ---
 
-## Example Brand Introduction
+## Security
 
-StellarBridge is an independent capital and advisory platform focused on long-term value creation through disciplined investment strategy, intelligent capital deployment, and trusted partnerships.
+StellarBridge is built with a security-first architecture:
 
-We combine institutional rigor with entrepreneurial vision to identify opportunities, preserve capital, and support sustainable growth in evolving global markets.
+- **Third-party audits** — all bridge contracts independently reviewed before deployment
+- **Decentralized validators** — diverse global quorum; no single point of failure
+- **Multi-sig treasury** — protocol funds require 5-of-9 keyholders across different jurisdictions
+- **Bug bounty** — responsible disclosure is rewarded; see [`SECURITY.md`](SECURITY.md)
+- **Circuit breakers** — automated 24/7 anomaly detection pauses the bridge if suspicious activity is detected
 
 ---
 
-## Suggested Brand Keywords
+## Getting Started
 
-Precision. Discipline. Legacy. Strategy. Intelligence. Stewardship. Growth. Trust. Excellence. Resilience.
+The easiest way to use StellarBridge is through StellarTerm:
+
+**[→ Launch StellarBridge on StellarTerm](https://stellarterm.com)**
+
+You'll need:
+1. A Stellar wallet (LOBSTR, Freighter, or any Stellar-compatible wallet)
+2. Some XLM for transaction fees (~$0.001 worth is more than enough)
+3. The asset you want to bridge
+
+---
+
+## Community & Links
+
+| | |
+|---|---|
+| 🌐 Website | [stellarbridge.io](https://stellarbridge.io) |
+| 🐦 Twitter / X | [@StellarBridge](https://twitter.com/StellarBridge) |
+| 💬 Discord | [discord.gg/stellarbridge](https://discord.gg/stellarbridge) |
+| 📢 Telegram | [t.me/stellarbridge](https://t.me/stellarbridge) |
+| 📖 Stellar Docs | [stellar.org/developers](https://stellar.org/developers) |
+
+---
+
+## Contributing
+
+Contributions, issues, and feature requests are welcome. Please read [`CONTRIBUTING.md`](CONTRIBUTING.md) before opening a pull request.
 
 ---
 
 ## License
 
-© 2026 StellarBridge. All rights reserved.
+MIT © 2026 StellarBridge
+
+*StellarBridge is an independent open-source project and is not affiliated with the Stellar Development Foundation.*
