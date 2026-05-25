@@ -28,7 +28,7 @@ ORG_KEYBASE             = "StellarBridge"
 SIGNING_KEY = "GBLWJMEOJEF3G5PMKH2LKS2Y26WZFI6N6SI725D2IY77VPE2JVYWJOIN"
 
 # ------------------------------------------------------------------------------
-# CURRENCIES  (33 tokens — fixed supply 922,337,203,685.4775807 each)
+# CURRENCIES  (32 tokens — fixed supply 922,337,203,685.4775807 each)
 # ------------------------------------------------------------------------------
 
 [[CURRENCIES]]
