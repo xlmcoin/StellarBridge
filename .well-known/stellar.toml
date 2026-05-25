@@ -294,19 +294,6 @@ status              = "live"
 regulated           = false
 
 [[CURRENCIES]]
-code                = "STELLAR"
-issuer              = "GBLWJMEOJEF3G5PMKH2LKS2Y26WZFI6N6SI725D2IY77VPE2JVYWJOIN"
-display_decimals    = 7
-name                = "Stellar"
-desc                = "Stellar bridged asset on StellarBridge — trustless cross-chain transfer powered by the Stellar network."
-image               = "https://stellarbridge.vercel.app/assets/Stellar.jpg"
-fixed_number        = 9223372036854775807
-is_asset_anchored   = false
-anchor_asset_type   = "other"
-status              = "live"
-regulated           = false
-
-[[CURRENCIES]]
 code                = "SUBWALLET"
 issuer              = "GBLWJMEOJEF3G5PMKH2LKS2Y26WZFI6N6SI725D2IY77VPE2JVYWJOIN"
 display_decimals    = 7
